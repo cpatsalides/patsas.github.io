@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 566.9 566.9" style="enable-background:new 0 0 566.9 566.9;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;}
+	.st1{fill:none;stroke:#F2F2F2;stroke-width:2;stroke-miterlimit:10;}
+	.st2{fill:url(#SVGID_1_);}
+</style>
+<pattern  y="566.9" width="350" height="350" patternUnits="userSpaceOnUse" id="NEw" viewBox="0 -350 350 350" style="overflow:visible;">
+	<g>
+		<rect y="-350" class="st0" width="350" height="350"/>
+		<line class="st1" x1="31" y1="-319" x2="139" y2="-211"/>
+		<line class="st1" x1="212" y1="-138" x2="320" y2="-30"/>
+		<line class="st1" x1="319" y1="-320" x2="211" y2="-212"/>
+		<line class="st1" x1="138" y1="-139" x2="30" y2="-31"/>
+	</g>
+</pattern>
+<pattern  id="SVGID_1_" xlink:href="#NEw" patternTransform="matrix(0.4138 0 0 0.4138 -4653.2388 -5132.1948)">
+</pattern>
+<path class="st2" d="M63.8,67.6l0.8,431.6l438.5-3.7V67.6H63.8z"/>
+</svg>

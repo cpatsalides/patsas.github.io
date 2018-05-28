@@ -1,0 +1,226 @@
+<html>
+<head>
+    
+    <title>Patsas ✌️</title> 
+  
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <meta property="og:url"  content="http://www.patsas.fun/" />
+    <meta property="og:title" content="Patsas ✌️" />
+    <meta property="og:type" content="website" />    
+    <meta property="og:description" content="It's your opportunity to stalk Patsas' work ✌️" />
+    <meta property="og:image" content="images/meta.png" />
+    
+    <link rel="icon" type="image/png" href="images/logo.png" sizes="196x196" />        
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/reset.css" />   
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">  
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>    
+	<script src="js/modernizr.js"></script> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+          $("a").on('click', function(event) {
+            if (this.hash !== "") {
+              event.preventDefault();
+              var hash = this.hash;
+              $('html, body').animate({
+                scrollTop: $(hash).offset().top
+              }, 800, function(){
+                window.location.hash = hash;
+              });
+            }
+          });
+        });
+    </script>
+    <script>
+        $(document).ready(function(){
+            $(".hover").hover(function() {
+                $(".bg").addClass("active");
+              }, function() {
+                $(".bg").removeClass("active");
+              }
+            );
+            $(".profile").click(function() {
+                $(".bg").addClass("active");
+                $(".bg").addClass("index");    
+                $(".bg").attr('src','images/profile.svg');
+                $('body').css('overflow', 'hidden');
+            });
+            $(".close").click(function() {
+                $(".bg").removeClass("active");
+                $(".bg").removeClass("index");    
+                $(".bg").attr('src','images/workshop.svg');
+                $('body').css('overflow', 'auto');    
+            });
+           $(".workshop").hover(function() {
+                $(".bg").addClass("active");
+                $(".bg").attr('src','images/workshop.svg');
+              }, function() {
+                $(".bg").removeClass("active");
+                $(".bg").attr('src','images/halloumi.svg');    
+              }
+            );
+            $(".funky").hover(function() {
+                $(".bg").addClass("active");
+                $(".bg").attr('src','images/funky.svg');
+              }, function() {
+                $(".bg").removeClass("active");
+                $(".bg").attr('src','images/workshop.svg');    
+              }
+            );
+            $(".home").hover(function() {
+                $(".bg").addClass("active");
+                $(".bg").attr('src','images/bg.svg');
+              }, function() {
+                $(".bg").removeClass("active");
+                $(".bg").attr('src','images/workshop.svg');    
+              }
+            );
+        });
+    </script>	
+    <script>
+    function openoverlay(x) {
+        document.getElementById(x).style.visibility = "visible";
+        document.getElementById(x).style.opacity = 1;    
+    }
+
+    function closeoverlay(x) {
+        document.getElementById(x).style.visibility = "hidden";
+        document.getElementById(x).style.opacity = 0;        
+    }
+    </script>
+    
+</head>
+    
+<body>
+    
+<div id="info" class="overlay">
+   <div class="overlay-content">
+        <div class="menufixed">  
+            <div></div>
+            <div>
+                <a class="close hover" onclick="closeoverlay('info')">Close</a>  
+            </div>
+        </div>
+        <div class="overlay-hdr">
+            <h1>Full name</h1>
+        </div>
+        <div class="overlay-line"></div>    
+        <div class="overlay-txt">
+            <p>Constantinos Patsalides</p>
+        </div>
+        <div class="overlay-hdr">
+            <h1>Nickname</h1>
+        </div>
+        <div class="overlay-line"></div>    
+        <div class="overlay-txt">
+            <p>Patsas</p>
+        </div>
+        <div class="overlay-hdr">
+            <h1>Facts</h1>
+        </div>
+        <div class="overlay-line"></div>    
+        <div class="overlay-txt">
+            <p>From Nicosia, Cyprus</p>
+            <p>Lives in Brighton, UK</p>
+            <p>Digital Media graduate</p>
+        </div>
+        <div class="overlay-hdr">
+            <h1>Story</h1>
+        </div>
+        <div class="overlay-line"></div>    
+        <div class="overlay-txt">
+            <p>From a young age, I always immersed myself in all sorts of creative stuff, including video editing, music mixing and graphic design. <br><br> My passion for these interests led me into studying Digital Media, during which I was lucky enough to get hands-on experience of concepts I was interested in, including planning events, developing websites and designing visuals. </p>
+        </div>
+        <div class="overlay-hdr">
+            <h1>Random facts</h1>
+        </div>
+        <div class="overlay-line"></div>    
+        <div class="overlay-txt">
+            <p>Music selector</p>                
+            <p>Crate digger</p>
+            <p>Football player</p>    
+            <p>Chicken eater</p>    
+            <p>Craft beer collector</p>
+            <p>Coffee addict</p>       
+        </div>
+        <div class="overlay-hdr">
+            <h1>Social</h1>
+        </div>
+        <div class="overlay-line"></div>    
+        <div class="overlay-txt">
+            <a class="hover" href="https://www.facebook.com/djpatsas/" target="_blank">Facebook</a>
+            <a class="hover" href="https://www.instagram.com/cpatsalides/" target="_blank">Instagram</a>
+            <a class="hover" href="https://www.linkedin.com/in/cpatsalides" target="_blank">LinkedIn</a>
+        </div>
+        <div class="overlay-hdr">
+            <h1>Contact</h1>
+        </div>
+        <div class="overlay-line"></div>    
+        <div class="overlay-txt">
+            <a class="hover" href="mailto:cpatsalides@yahoo.com?subject=Let's meet!">cpatsalides@yahoo.com</a>
+            <p>+447923556980</p>
+        </div>
+    </div>
+</div>
+    
+<section id="home">
+     <div class="menu animate-bottom">   
+        <div id="logo">
+            <a class="logo hover" href="index.html"><img src="images/white.svg"></a>
+        </div>
+        <div id="navigation">
+            <a class="hover profile" onclick="openoverlay('info')">Profile</a>  
+        </div> 
+    </div>
+        <img class="bg" src="images/workshop.svg">
+                        
+                        <div class="project animated fadeIn">
+                            <div class="project-header">
+                                <h1>Building the brand identify of a local coffee shop
+                                </h1> 
+                            </div>
+                            <div class="project-line">
+                                <div></div>
+                            </div>
+                            <div class="project-info">
+                                <p>Year - 2018</p>    
+                            </div>
+                            <div class="project-gallery">
+                                <img src="images/workshop.jpg"> 
+                                <div class="project-txt"> 
+                                    <h1>The story</h1>
+                                    <div class="line"></div>
+                                    <p>This project was for a coffee shop due to be launched in autumn 2018. Its mission is to serve locals with freshly brewed coffee and snacks, in a friendly and cosy space.</p>
+                                </div>
+                                <img src="images/workshop1.jpg"> 
+                                <div class="project-txt"> 
+                                    <h1>The result</h1>
+                                    <div class="line"></div>
+                                    <p>I designed the brand identity, including the logo and its applications. The main challenge was to ensure that everything matched up with the owners’ vision. From this I learnt the importance of communication with and understanding of the client. </p>
+                                </div>
+                                <img src="images/workshop2.jpg">     
+                                <img src="images/workshop4.jpg">     
+
+                            </div>
+                            <div class="project-line">
+                                <div></div>
+                            </div>
+                            <div class="project-controls">
+                                <a class="hover home" href="index.html">All projects</a>
+                                <p>-</p>
+                                <a class="funky" href="funky.html">Next project</a>
+                            </div>
+                        </div>
+
+               
+</section> 
+<script src="js/jquery-2.1.1.js"></script>
+<script src="js/main.js"></script> <!-- Resource jQuery -->    
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+</body>
+</html>
